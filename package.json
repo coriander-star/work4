@@ -1,0 +1,22 @@
+{
+  "name": "yikao-health-assistant",
+  "version": "1.0.0",
+  "description": "医靠健康助手 - 大学生体质测评应用",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "sqlite3": "^5.1.6",
+    "http-server": "^14.1.1"
+  },
+  "keywords": ["health", "assessment", "constitution", "tcm"],
+  "author": "医靠团队",
+  "license": "MIT"
+}
